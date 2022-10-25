@@ -7,30 +7,30 @@ the use of a reaction or fly wheel.
 
 We have several boards we will design to work together.
 
-> ######Sensor-Board
+> ###### Sensor-Board
    We're isolating our sensors to one board, 
        BNO055- Orientation sensor, rotation and acceleration
        BMP180- Barometer, temps, altitude
        Adafruit Ultimate GPS- location bviously
        Camera- It's likely we'll use a camera onboard
->######Power-Board
+>###### Power-Board
    We'll use this simply to mount batteries, and possibly merge this with the Buck-converter board.
    
->######Buck Converter-Board
+>###### Buck Converter-Board
    Dependent on the Power board configuration,
      Buck converters are used to step down voltage. 
      Since we'll be using several different voltages throughout the boards, we'll use Buck converters to drop the voltage to each use.
      We will most likely be using a starting voltage of 14 Volts.
         We'll drop to a voltage for the motor, 6V for the servos, 5 Volts for the RasPi, which will supply 3.3 Volts to our sensors.
         
->######Servo-Board
+>###### Servo-Board
    This board will be where we house the matrix of wiring and control for our numerous servos.
      We'll have two for thrust vectoring, and another two for actuation of mechanical systems such as flaps and landing legs. 
      because we use PWM (Pulse Width Modulation) to control servose, we'll use a device that allows communication
      with the RasPi in order to create more PWM signals. This is because the RasPi simply doesn't have enough PWM pins to do it on its own.
      We will also supply power and control for the Motor in the flywheel from this board.
      
->######RasPi Mounting
+>###### RasPi Mounting
    We need a board to mount the RasPi inside PLOP, we'll likely stick this with the ignition circuit that starts the rocket motor.
    
         
