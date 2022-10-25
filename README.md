@@ -28,8 +28,7 @@ We have several boards we will design to work together.
      We'll have two for thrust vectoring, and another two for actuation of mechanical systems such as flaps and landing legs. 
      because we use PWM (Pulse Width Modulation) to control servose, we'll use a device that allows communication
      with the RasPi in order to create more PWM signals. This is because the RasPi simply doesn't have enough PWM pins to do it on its own.
-     
-   We will also supply power and control for the Motor in the flywheel from this board.
+     We will also supply power and control for the Motor in the flywheel from this board.
      
 >RasPi Mounting
    We need a board to mount the RasPi inside PLOP, we'll likely stick this with the ignition circuit that starts the rocket motor.
