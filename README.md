@@ -9,10 +9,10 @@ We have several boards we will design to work together.
 
  ###### Sensor-Board
   > We're isolating our sensors to one board, 
-       BNO055- Orientation sensor, rotation and acceleration
-       BMP180- Barometer, temps, altitude
-       Adafruit Ultimate GPS- location bviously
-       Camera- It's likely we'll use a camera onboard
+       BNO055- Orientation sensor, rotation and acceleration.
+       BMP180- Barometer, temps, altitude.
+       Adafruit Ultimate GPS- location obviously.
+       Camera- It's likely we'll use a camera onboard.
 ###### Power-Board
    >We'll use this simply to mount batteries, and possibly merge this with the Buck-converter board.
    
