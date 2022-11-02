@@ -31,7 +31,7 @@ We have several boards we will design to work together.
      We will also supply power and control for the Motor in the flywheel from this board.
      
 ###### RasPi Mounting
-   >We need a board to mount the RasPi inside PLOP, we'll likely stick this with the ignition circuit that starts the rocket motor. Also to be mentioned, we'll be mounting the radio here as well.
+   >We need a board to mount the RasPi inside PLOP, we'll likely stick this with the ignition circuit that starts the rocket motor. Also to be mentioned, we'll be mounting the radio here as well..
    
         
        
