@@ -14,7 +14,7 @@ We have several boards we will design to work together.
        Adafruit Ultimate GPS- location obviously.
        Camera- It's likely we'll use a camera onboard.
 ###### Power-Board
-   >We'll use this simply to mount batteries, and possibly merge this with the Buck-converter board.
+   >We'll use this simply to mount batteries, Buck-converters, and the start up system.
    
 ###### Buck Converter-Board
    >Dependent on the Power board configuration,
@@ -31,7 +31,7 @@ We have several boards we will design to work together.
      We will also supply power and control for the Motor in the flywheel from this board.
      
 ###### RasPi Mounting
-   >We need a board to mount the RasPi inside PLOP, we'll likely stick this with the ignition circuit that starts the rocket motor. Also to be mentioned, we'll be mounting the radio here as well..
+   >We need a board to mount the RasPi inside PLOP, we'll likely stick this with the ignition circuit that starts the rocket motor. Also to be mentioned, we'll be mounting the radio here as well.
    
         
        
