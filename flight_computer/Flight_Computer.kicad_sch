@@ -1576,6 +1576,10 @@
     (effects (font (size 0.8 0.8)) (justify left bottom))
     (uuid 89f1db19-4080-421a-b035-830de7c3cf7e)
   )
+  (text "just a github test" (at 24.13 106.68 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8d4f4814-b60a-48e1-b41d-beeb347cf229)
+  )
   (text "AMS1117-3.3 might be a good lin reg for the board."
     (at 196.85 17.78 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
