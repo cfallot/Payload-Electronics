@@ -1566,6 +1566,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2872b973-f9a7-4bb0-a505-72dd32de7ae6)
   )
+  (text "PC to laptop git test" (at 19.05 165.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5c6bd21b-86b6-485d-88e5-b3f0fcf71ba8)
+  )
   (text "This lin-reg pairs well with 22uF cap on in+output"
     (at 200.66 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
