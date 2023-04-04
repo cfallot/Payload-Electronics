@@ -7980,6 +7980,24 @@
     (pin "1" (uuid eeaa917b-6440-40e2-96d8-fd321ac5e1bf))
   )
 
+  (symbol (lib_id "power:GND") (at 119.38 153.67 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 57535ee3-b0ed-45a3-b245-48c5e387c69d)
+    (property "Reference" "#PWR?" (id 0) (at 125.73 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 123.19 153.6699 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 119.38 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 119.38 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 304a25b6-803f-43b8-814a-27dad4151d60))
+  )
+
   (symbol (lib_id "power:GND") (at 58.42 -67.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 58d6bd54-4a35-4d97-b81c-924f6105bba9)
@@ -10508,6 +10526,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/56c270b9-7a81-44bf-9689-afed6f6db1d7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/57535ee3-b0ed-45a3-b245-48c5e387c69d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/58d6bd54-4a35-4d97-b81c-924f6105bba9"
