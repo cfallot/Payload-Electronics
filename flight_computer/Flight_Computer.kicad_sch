@@ -6224,7 +6224,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1832af92-0e36-4e78-b33b-e55a35f3ca56)
   )
-  (text "Find proper L and C values" (at 69.85 -26.67 0)
+  (text "Try 100uH induc and 330uF cap, Use adj for 3.3 and 6?"
+    (at 69.85 -26.67 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold italic) (justify left bottom))
     (uuid 209c56f3-617d-4ea3-8ad3-d10e3f9ca590)
   )
