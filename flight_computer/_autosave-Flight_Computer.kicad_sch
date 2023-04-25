@@ -9500,6 +9500,25 @@
     (pin "1" (uuid d2ebea05-c9c5-4615-b2ab-567641f26035))
   )
 
+  (symbol (lib_id "Device:R") (at 497.84 302.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid bcc42a10-254e-4b59-974b-9e53229b341c)
+    (property "Reference" "R?" (id 0) (at 500.38 300.9899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R" (id 1) (at 500.38 303.5299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 496.062 302.26 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 497.84 302.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 44a8eceb-d6a8-40b8-873d-b3d3116a2d8a))
+    (pin "2" (uuid 3b1572fc-55b4-4f7a-b0b6-2cdb9220b9d1))
+  )
+
   (symbol (lib_id "power:GND") (at 419.1 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bcc5df80-5ff7-4cd0-ab07-1de903427559)
@@ -10873,6 +10892,9 @@
     )
     (path "/b917e3ba-3673-46cc-838d-6b9fdc270a35"
       (reference "R?") (unit 1) (value "1ohm") (footprint "")
+    )
+    (path "/bcc42a10-254e-4b59-974b-9e53229b341c"
+      (reference "R?") (unit 1) (value "R") (footprint "")
     )
     (path "/c15cac80-936f-40cf-ab97-38fd3a7d70b9"
       (reference "R?") (unit 1) (value "10Kohm") (footprint "")
